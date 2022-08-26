@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    /* font-size: 16px; */
+}
+
+#logo {
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+#navlist a {
+    text-decoration: none;
+    color: rgb(42, 155, 118);
+}
+
+#navlist a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.intro {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    /* max-width: 100%; */
+    justify-content: center;
+    margin: 1rem 10rem;
+}
+
+.intro a {
+    margin-left: 100px;
+}
+
+.sub-head {
+    width: 600px;
+    margin-left: 300px;
+}
+
+.sub-head h2 {
+    margin-left: 10px;
+    color: rgb(42, 155, 118);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sub-header h2{
+    margin-left: 110px;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.header h3 {
+    margin: 2rem 20rem;
+    font-size: 22px;
+    text-decoration: underline;
+    color: rgb(42, 155, 118);
+}
+
+.header p {
+    max-width: 70%;
+    padding: 0.1rem 16rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    max-height: 900px;
+    margin-bottom: 50px;
+}
+
+.image img {
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.title h3 li {
+    list-style: disc;
+    margin-left: 25rem;
+}
+
+.snacks .content {
+    padding: 0.1rem 7rem;
+    max-width: 100%;
+}
+
+.left {
+    margin-left: 70px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        font-size: 14px;
+    }
+
+
+    .intro {
+        display: block;
+        max-width: 100%;
+        margin-left: 20px;
+    }
+
+    .header h3 {
+        margin-left: 30px;
+        max-width: 100%;
+        margin: 0.2rem 9rem;
+        font-size: 18px;
+    }
+
+    .header p {
+        margin-left: 10px;
+        padding: 0.01rem 4rem;
+    }
+
+    .title h3 li {
+        margin-left: 6rem;
+    }
+
+    .snacks {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .snacks .content {
+        padding: 0.01rem 3rem;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        max-height: 900px;
+        margin-bottom: 50px;
+    }
+
+    .image img {
+        margin-right: 70px;
+        width: 250px;
+    }
+
+    .left {
+        margin-left: 10px;
+        width: 150px;
+    }
+}
